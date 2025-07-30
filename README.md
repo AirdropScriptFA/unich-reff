@@ -1,246 +1,237 @@
-<div align="center">
-
 # 🤖 UNICH Project Automation
 
-```
- █    ██  ███▄    █  ██▓ ▄████▄   ██░ ██     ██▓███   ██░ ██  ▒█████  ▓█████  ███▄    █  ██▓▒██   ██▒
- ██  ▓██▒ ██ ▀█   █ ▓██▒▒██▀ ▀█  ▓██░ ██▒   ▓██░  ██▒▓██░ ██▒▒██▒  ██▒▓█   ▀  ██ ▀█   █ ▓██▒▒▒ █ █ ▒░
-▓██  ▒██░▓██  ▀█ ██▒▒██▒▒▓█    ▄ ▒██▀▀██░   ▓██░ ██▓▒▒██▀▀██░▒██░  ██▒▒███   ▓██  ▀█ ██▒▒██▒░░  █   ░
-▓▓█  ░██░▓██▒  ▐▌██▒░██░▒▓▓▄ ▄██▒░▓█ ░██    ▒██▄█▓▒ ▒░▓█ ░██ ▒██   ██░▒▓█  ▄ ▓██▒  ▐▌██▒░██░ ░ █ █ ▒ 
-▒▒█████▓ ▒██░   ▓██░░██░▒ ▓███▀ ░░▓█▒░██▓   ▒██▒ ░  ░░▓█▒░██▓░ ████▓▒░░▒████▒▒██░   ▓██░░██░▒██▒ ▒██▒
-░▒▓▒ ▒ ▒ ░ ▒░   ▒ ▒ ░▓  ░ ░▒ ▒  ░ ▒ ░░▒░▒   ▒▓▒░ ░  ░ ▒ ░░▒░▒░ ▒░▒░▒░ ░░ ▒░ ░░ ▒░   ▒ ▒ ░▓  ▒▒ ░ ░▓ ░
-░░▒░ ░ ░ ░ ░░   ░ ▒░ ▒ ░  ░  ▒    ▒ ░▒░ ░   ░▒ ░      ▒ ░▒░ ░  ░ ▒ ▒░  ░ ░  ░░ ░░   ░ ▒░ ▒ ░░░   ░▒ ░
- ░░░ ░ ░    ░   ░ ░  ▒ ░░         ░  ░░ ░   ░░        ░  ░░ ░░ ░ ░ ▒     ░      ░   ░ ░  ▒ ░ ░    ░  
-   ░              ░  ░  ░ ░       ░  ░  ░             ░  ░  ░    ░ ░     ░  ░         ░  ░   ░    ░  
-                        ░                                                                            
-```
-
-### 🚀 **UNICH Project Automation by PhoenixCrypto_PC** 🚀
+### 🚀 UNICH Project Automation
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-Educational-green.svg)](LICENSE)
-[![Telegram](https://img.shields.io/badge/Telegram-@PhoenixCrypto__PC-blue.svg)](https://t.me/PhoenixCrypto_PC)
+[![Telegram- Pheonix](https://img.shields.io/badge/Telegram-@PhoenixCrypto__PC-blue.svg)](https://t.me/PhoenixCrypto_PC)
+[![Telegram](https://img.shields.io/badge/Telegram-@AirdropScriptFA-blue.svg)](https://t.me/AirdropScriptFA)
+---
+
+## 📋 Overview
+
+An advanced automation system for the UNICH project featuring full control over account management, mining, performance monitoring, backups, and logging.
 
 ---
 
-**نظام أتمتة متقدم لمشروع UNICH مع ميزات شاملة لإدارة الحسابات والتعدين والمراقبة**
+## ✨ Key Features
+
+### 🔧 Core Functionalities
+
+- ✉️ Gmail Dot Trick Generator: Create unique Gmail variants  
+- 🔌 Direct API Registration: Supports 2Captcha, Anticaptcha, Capsolver  
+- ⛏️ Auto Mining: Start mining for all accounts  
+- 📊 Stats Dashboard: View performance and mining statistics  
+- 🔍 System Health Check: Monitor CPU, memory, and disk  
+- 📦 Backup Management: Auto-backup and restore options  
+
+### 🛡️ Security & Reliability
+
+- 🔄 Enhanced Retry Logic: Exponential backoff with random delays  
+- 📝 Advanced Logging: Multi-level, structured logging  
+- ⏱️ Session Handling: Request limiting & session tracking  
+- 💾 Auto Backups: Every 6 hours  
+- 🔐 Environment Variables: Protect sensitive information  
 
 ---
 
-</div>
+## 🚀 Installation & Setup
 
-## 📋 نظرة عامة
+### Requirements
 
-نظام أتمتة متقدم لمشروع UNICH مع ميزات شاملة لإدارة الحسابات والتعدين والمراقبة.
-
-## ✨ الميزات الرئيسية
-
-### 🔧 الوظائف الأساسية
-- **✉️ مولد Gmail Dot Trick**: إنشاء متغيرات البريد الإلكتروني
-- **🔌 تسجيل API مباشر**: دعم 2Captcha/Anticaptcha/Capsolver
-- **⛏️ التعدين التلقائي**: بدء التعدين لجميع الحسابات
-- **📊 لوحة الإحصائيات**: مراقبة الأداء والإحصائيات
-- **🔍 فحص صحة النظام**: مراقبة الموارد والأداء
-- **📦 إدارة النسخ الاحتياطي**: نسخ احتياطي واستعادة تلقائية
-
-### 🛡️ ميزات الأمان والموثوقية
-- **🔄 نظام Retry محسن**: Exponential Backoff مع تأخير عشوائي
-- **📝 نظام Logging متقدم**: تسجيل مفصل مع مستويات مختلفة
-- **⏱️ إدارة الجلسات**: Rate Limiting ومراقبة الطلبات
-- **💾 النسخ الاحتياطي التلقائي**: حماية البيانات كل 6 ساعات
-- **🔐 متغيرات بيئية**: حماية البيانات الحساسة
-
-## 🚀 التثبيت والإعداد
-
-### المتطلبات
 ```bash
 Python 3.8+
 ```
 
-### تثبيت المكتبات
+### Install Dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
 
-## 📁 هيكل المشروع
+---
+
+## 📁 Project Structure
 
 ```
 UNICH-ULTIMATE/
-├── main.py                 # الملف الرئيسي
-├── config.py              # إعدادات التكوين
-├── requirements.txt       # المكتبات المطلوبة
-├── README.md             # هذا الملف
-├── .gitignore            # حماية الملفات
+├── main.py                 # Main launcher
+├── config.py               # Configuration
+├── requirements.txt        # Required libraries
+├── README.md               # This file
+├── .gitignore              # Git ignore rules
 ├── modules/
-│   ├── api_interaction.py    # تفاعل API
-│   ├── mining_api.py         # التعدين
-│   ├── gmail_dot_generator.py # مولد البريد
-│   ├── utils.py              # أدوات مساعدة
-│   ├── system_utils.py       # أدوات النظام
-│   ├── stats.py              # نظام الإحصائيات
-│   ├── session_manager.py    # إدارة الجلسات
-│   ├── performance_monitor.py # مراقبة الأداء
-│   ├── backup_manager.py     # إدارة النسخ الاحتياطي
-│   └── setup_config.py       # إعداد التكوين التفاعلي
+│   ├── api_interaction.py      # Handles API requests
+│   ├── mining_api.py           # Mining logic
+│   ├── gmail_dot_generator.py  # Email generator
+│   ├── utils.py                # General utilities
+│   ├── system_utils.py         # Health checks
+│   ├── stats.py                # Stats tracking
+│   ├── session_manager.py      # Session control
+│   ├── performance_monitor.py  # CPU/Memory/Disk monitoring
+│   ├── backup_manager.py       # Backup and restore logic
+│   └── setup_config.py         # Interactive configuration script
 ├── data/
-│   ├── accounts.txt          # الحسابات
-│   ├── done.txt              # الحسابات المكتملة
-│   ├── errors.txt            # الأخطاء
-│   └── statistics.json       # الإحصائيات
+│   ├── accounts.txt            # List of accounts
+│   ├── done.txt                # Processed accounts
+│   ├── errors.txt              # Error logs
+│   └── statistics.json         # Stats data
 ├── logs/
-│   └── app.log              # ملف السجلات
-└── backups/                 # النسخ الاحتياطية
+│   └── app.log                 # Main log file
+└── backups/                   # Backup storage
 ```
 
-## 🎯 كيفية الاستخدام
+---
 
-### تشغيل النظام الرئيسي
+## 🎯 How to Use
+
+### Launch the Main Script
+
 ```bash
 python main.py
 ```
 
-### القائمة الرئيسية
-1. **✉️ Generate Gmail Dot Trick Emails**: إنشاء متغيرات البريد
-2. **🔌 API Registration (2Captcha/Anticaptcha/Capsolver)**: تسجيل الحسابات عبر API
-3. **⛏️ Start Mining for All Accounts**: بدء التعدين
-4. **📊 View Statistics & Performance**: عرض الإحصائيات
-5. **🔍 System Health Check**: فحص صحة النظام
-6. **📦 Backup & Restore Management**: إدارة النسخ الاحتياطي
+### Main Menu Options
 
-## 🔧 الميزات المتقدمة
+1. ✉️ Generate Gmail Dot Trick Emails  
+2. 🔌 API Registration (2Captcha, Anticaptcha, Capsolver)  
+3. ⛏️ Start Mining for All Accounts  
+4. 📊 View Statistics & Performance  
+5. 🔍 System Health Check  
+6. 📦 Backup & Restore Management  
 
-### نظام Retry المحسن
-- **Exponential Backoff**: تأخير متزايد بين المحاولات
-- **Random Jitter**: عشوائية لتجنب التصادم
-- **Smart Retry**: إعادة المحاولة الذكية للأخطاء
+---
 
-### نظام الإحصائيات
-- **📈 معدلات النجاح**: تتبع معدلات النجاح والفشل
-- **📊 إحصائيات يومية**: تحليل الأداء اليومي
-- **⏰ إحصائيات ساعية**: مراقبة الأداء بالساعة
-- **🎯 معدلات CAPTCHA**: تتبع نجاح حل CAPTCHA
+## 🔧 Advanced Features
 
-### مراقبة الأداء
-- **💻 مراقبة CPU**: استخدام المعالج
-- **🧠 مراقبة الذاكرة**: استخدام الذاكرة
-- **💾 مراقبة القرص**: مساحة التخزين
-- **⚠️ نظام التنبيهات**: تنبيهات تلقائية
+### Retry System
 
-### إدارة النسخ الاحتياطي
-- **🔄 نسخ احتياطي تلقائي**: كل 6 ساعات
-- **📦 حفظ 10 نسخ**: الاحتفاظ بآخر 10 نسخ
-- **🔄 استعادة آمنة**: استعادة مع نسخ احتياطي
-- **📋 إدارة النسخ**: عرض وإدارة النسخ
+- ✅ Exponential Backoff  
+- ✅ Random Jitter to prevent collisions  
+- ✅ Smart Retry for transient errors  
 
-## ⚙️ إعداد التكوين
+### Statistics System
 
-### الطريقة الأولى: الإعداد التفاعلي (مُوصى به)
+- 📈 Registration success rate  
+- 🎯 CAPTCHA solving performance  
+- 🔁 OTP verification rate  
+- ⛏️ Mining success rate  
+
+### Performance Monitoring
+
+- 💻 CPU usage  
+- 🧠 RAM consumption  
+- 💾 Disk space remaining  
+- ⚠️ Real-time alert system  
+
+### Backup Management
+
+- 🔁 Automatic backup every 6 hours  
+- 💽 Keeps last 10 backups  
+- 🔄 Safe Restore  
+- 🗂️ Full backup management  
+
+---
+
+## ⚙️ Configuration Setup
+
+### Method 1: Interactive Setup (Recommended)
+
 ```bash
 python modules/setup_config.py
 ```
 
-#### ما يمكن تعديله:
-- **Referral Code**: كود الإحالة
-- **Gmail Email**: بريد Gmail
-- **Gmail App Password**: كلمة مرور التطبيق
-- **2Captcha API Key**: مفتاح 2captcha
-- **Anticaptcha API Key**: مفتاح Anticaptcha
-- **Capsolver API Key**: مفتاح Capsolver
+You can configure:
 
-#### مزايا السكريبت التفاعلي:
-- ✅ **واجهة سهلة**: تفاعلية وسهلة الاستخدام
-- ✅ **حماية البيانات**: لا تظهر البيانات الحساسة
-- ✅ **تحقق تلقائي**: التحقق من صحة المدخلات
-- ✅ **حفظ آمن**: حفظ الإعدادات في config.py
+- Referral Code  
+- Gmail Email  
+- Gmail App Password  
+- 2Captcha API Key  
+- Anticaptcha API Key  
+- Capsolver API Key  
 
-### الطريقة الثانية: إعداد المتغيرات البيئية
+✅ User-friendly  
+✅ Input validation  
+✅ Saves securely to `config.py`  
+
+### Method 2: Use Environment Variables
+
 ```bash
-# Gmail Settings
+# Gmail
 export GMAIL_EMAIL="your-email@gmail.com"
 export GMAIL_PASSWORD="your-app-password"
 
-# Captcha API Keys
+# CAPTCHA APIs
 export API_KEY_2CAPTCHA="your-2captcha-key"
 export API_KEY_ANTICAPTCHA="your-anticaptcha-key"
 export API_KEY_CAPSOLVER="your-capsolver-key"
 ```
 
-## 📊 الإحصائيات المدعومة
+---
 
-### معدلات النجاح
-- معدل نجاح التسجيل
-- معدل نجاح CAPTCHA
-- معدل نجاح OTP
-- معدل نجاح التعدين
+## 📊 Statistics Tracked
 
-### مراقبة النظام
-- استخدام CPU
-- استخدام الذاكرة
-- استخدام القرص
-- عدد الطلبات/الساعة
-
-### تتبع الأخطاء
-- سجل الأخطاء التفصيلي
-- تصنيف الأخطاء
-- وقت حدوث الخطأ
-- الحساب المرتبط بالخطأ
-
-
-
-## 🔍 استكشاف الأخطاء
-
-### مشاكل شائعة
-1. **خطأ في Gmail**: تأكد من تفعيل App Password
-2. **خطأ في CAPTCHA**: تأكد من صحة API Key
-3. **خطأ في الاتصال**: تحقق من الاتصال بالإنترنت
-4. **خطأ في الذاكرة**: تحقق من مساحة القرص
-
-### ملفات السجلات
-- `logs/app.log`: السجلات التفصيلية
-- `data/errors.txt`: الأخطاء المحدثة
-- `data/statistics.json`: الإحصائيات
-
-## 📈 الأداء والتحسينات
-
-### التحسينات المطبقة
-- ✅ نظام Retry محسن مع Exponential Backoff
-- ✅ إدارة الجلسات مع Rate Limiting
-- ✅ مراقبة الأداء في الوقت الفعلي
-- ✅ نظام النسخ الاحتياطي التلقائي
-- ✅ نظام Logging متقدم
-- ✅ واجهة مستخدم محسنة
-- ✅ سكريبت إعداد تفاعلي منفصل
-
-### نصائح للأداء
-1. **استخدم سكريبت الإعداد**: `python modules/setup_config.py`
-2. **استخدم API Keys صحيحة**: لضمان نجاح CAPTCHA
-3. **راقب الموارد**: استخدم فحص صحة النظام
-4. **احتفظ بالنسخ الاحتياطية**: استخدم نظام النسخ التلقائي
-5. **راقب السجلات**: تحقق من ملفات السجلات بانتظام
-
-## 🤝 المساهمة
-
-للمساهمة في المشروع:
-1. Fork المشروع
-2. أنشئ branch جديد
-3. أضف التحسينات
-4. أرسل Pull Request
-
-## 📄 الترخيص
-
-هذا المشروع مخصص للاستخدام التعليمي والبحثي.
-
-## 📞 الدعم
-
-للحصول على الدعم:
-- 📢 Telegram: @PhoenixCrypto_PC
-- 🔗 https://t.me/PhoenixCrypto_PC
+- Registration success  
+- CAPTCHA solve rate  
+- OTP verification success  
+- Mining activity results  
+- System metrics: CPU, RAM, Disk  
+- Requests per hour  
+- Detailed error breakdowns  
 
 ---
 
-<div align="center">
+## 🔍 Troubleshooting
 
-## 🏆 **تم تطوير هذا النظام بواسطة PhoenixCrypto_PC** 🏆
+### Common Issues
+
+1. Gmail Error: Enable Gmail App Password  
+2. CAPTCHA Errors: Check API key validity  
+3. Connection Errors: Verify internet access  
+4. Disk Errors: Ensure storage space  
+
+### Logs to Check
+
+- `logs/app.log` – Full activity logs  
+- `data/errors.txt` – Error-specific logs  
+- `data/statistics.json` – Stats database  
+
+---
+
+## 📈 Performance Tips
+
+- ✅ Use `setup_config.py` for safe setup  
+- ✅ Validate all API keys before usage  
+- ✅ Monitor system health regularly  
+- ✅ Enable backup retention  
+- ✅ Review logs weekly  
+
+---
+
+## 🤝 Contributing
+
+Want to help improve this project?
+
+1. Fork this repo  
+2. Create a new branch  
+3. Make your changes  
+4. Submit a pull request  
+
+---
+
+## 📄 License
+
+This software is licensed for **educational and research use only**.
+
+---
+
+## 📞 Support
+
+- Telegram: [@PhoenixCrypto_PC](https://t.me/PhoenixCrypto_PC)
+
+---
+
+## 🏆 Developed by PhoenixCrypto_PC
 
 ```
 ██████╗ ██╗  ██╗ ██████╗ ███████╗███╗   ██╗██╗██╗  ██╗
@@ -251,14 +242,4 @@ export API_KEY_CAPSOLVER="your-capsolver-key"
 ╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚═╝╚═╝  ╚═╝
 ```
 
-### 🌟 **شكراً لاستخدام UNICH Project Automation** 🌟
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-black.svg)](https://github.com/phoenixcrypto/unich-pro)
-[![Telegram](https://img.shields.io/badge/Telegram-@PhoenixCrypto__PC-blue.svg)](https://t.me/PhoenixCrypto_PC)
-[![Stars](https://img.shields.io/badge/Stars-⭐-yellow.svg)](https://github.com/phoenixcrypto/unich-pro/stargazers)
-
----
-
-**🚀 تم تطوير هذا النظام بواسطة PhoenixCrypto_PC** 🚀
-
-</div> 
+Thanks for using **UNICH Project Automation** 🚀
